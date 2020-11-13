@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@mixin Full-box {
+   width:100%;
+    background: url('videos/ram.gif');
+    height:auto;
+}
+.App-Full-box{
+    @include Full-box;
+    font-family: 'Montserrat', sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+$fontsize:20px;
+$clor:yellow;
+#time{
+   font-size: $fontsize;
+    color:$clor;
+   -webkit-text-stroke: 0.5px black;
+    
+}
+.twitter-icon{
+    background-color: rgb(0, 102, 255);
+    color:white;
+    text-decoration: none;
+    border:4px;
+    padding: 2px 3px;
+    font-size: 13px;
+    font-family: 'Chivo', sans-serif;
+    
+}
+#demo{
+    color:black;
+    font-size: 20px;
+}
+.share-buttons{
+    display: flex;
+    justify-content: space-around;
+   
+    width:13%;
+   
+}
+.share-buttons1{
+    margin-top: 21%; 
+  font-size: 25px;  
+}
+}
+@media(max-width:768px){
+.App-Full-box{
+    width:auto;
+    height: auto;
+   position: absolute;
+   left:0;
+   right:0;
+.share-buttons{
+    width:70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.share-buttons1{
+    margin-top: 65%;
+   
+}
+.icon{
+    margin-left: 10px;
+}
+body{
+    background:linear-gradient(105deg,green ,rgb(18, 136, 18));
+}
+}
+}

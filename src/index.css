@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 500;
+  -webkit-text-stroke: 0.1px black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(105deg,green ,rgb(18, 136, 18));  color:white;
+  font-weight: 800;
+ 
+ text-align: center;
+}
+
